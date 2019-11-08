@@ -40,20 +40,15 @@ __Research Assistant__, _Battery Materials Research Group_, April 2018-September
 
 ## Extra-Curricular
 
-Vice President, _Amateur Radio Club_, January 2018-Present
+__Vice President__, _Amateur Radio Club_, January 2018-Present
 * Organized weekly club meetings to discuss and implement principles of amateur radio
 * Assisted four members to obtain or upgrade their licenses
 * Coordinated weekly over-the-air trainings for club members to test equipment and to learn principles of radio communication
 
-Student Mentoring, _President's Leadership Council_, September 2019-Present
+__Student Mentoring__, _President's Leadership Council_, September 2019-Present
 * Lectures regarding global leadership
 * One-on-one interaction between current students and successful alumni
 * Discussions ranging from ethics to entrepreneurship
-
-Laser Tag System Designer, _Junior Design Project_, Winter 2019
-* Designed fully-functional, real-time laser tag system with range of over 60 feet
-* Implemented analog receiver amplifier circuitry on a PCB
-* Developed software for on-board FPGA signal processing unit programmed in C
 
 ## Publications
 
@@ -79,6 +74,10 @@ I am currently working on my Capstone Project at Brigham Young University for Sa
 
 This graduate level course consisted entirely of controlling a small RC car to detect lanes, avoid obstacles, and follow the rules of the road. We used an Intel RealSense camera for image, depth, and speed information. We also used a Nvidia GPU for processing. My car can now navigate the road using several types of lane-following algorithms.
 
+### Laser Tag
+
+For my Junior Design Project, I designed a fully-functional, real-time laser tag system with range of over 60 feet. I implemented analog receiver amplifier circuitry on a PCB, and developed software for the on-board FPGA signal processing unit in C. This unit interfaced well with other units designed by my classmates, so we were able to play laser tag by the end of the semester.
+
 ### Embedded Systems
 
 The following projects were completed for an embedded systems lab. I programmed an FPGA in C to control a touchscreen display. All of these systems were real-time, interactive applications. These were done on bare-metal systems.
@@ -93,11 +92,24 @@ __Whack-a-Mole__: This game is the classic whack-a-mole where the user must tap 
 
 ### Control Systems
 
-I created several simulations in Python from scratch that incorporate physics for three systems, including a mass-spring-damper system, a ball on beam system, and a quadcopter system. I then designed various controllers (PID, state-space, observer-based) to control the behavior of the systems. For example, I simulated a quadcopter in two dimensions with wind. I could command the quadcopter to go to various locations, and the controller would correctly control the motors to place the quadcopter where I commanded.
+__Python Simluations__: I created several simulations in Python from scratch that incorporate physics for three systems, including a mass-spring-damper system, a ball on beam system, and a quadcopter system. I then designed various controllers (PID, state-space, observer-based) to control the behavior of the systems. For example, I simulated a quadcopter in two dimensions with wind. I could command the quadcopter to go to various locations, and the controller would correctly control the motors to place the quadcopter where I commanded.
+
+### Digital Signal Processing
+
+__Direction-finder__: Using two microphones and MATLAB, I was able to correctly determine the direction from which an audible tone propagated through the lab based on the phase difference between the two signals.
+
+__Image processing__: Compared various methods of image filtering and evaluated their efficiency. Types of filters included edge-finding, blurring, and frequency-domain analysis.
+
+__FIR and Adaptive Filter design__: Developed an FIR filter to separate several audible tones into their respective Morse code signals that could then be transcribed. I also created an adaptive filter that could adapt to noise and remove it from the signal.
+
+__Spectrogram__: Created a real-time spectrogram using MATLAB and a microphone and analyzed how various filters affected frequency components of musical signals.
 
 ### Computer Science
 
-I trained a TensorFlow neural net to identify various articles of clothing, and another to identify stop signs and stop lights for my autonomous vehicle project.
+__TensorFlow__: I trained a TensorFlow neural net to identify various articles of clothing and another to identify stop signs and stop lights for my autonomous vehicle project.
+
+__Datalog__: I created a parser for Datalog programs, then used that information to evaluate logical statements using SQL-like queries.
+
 
 ## Skills
 
