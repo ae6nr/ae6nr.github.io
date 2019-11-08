@@ -19,7 +19,7 @@ __Research Assistant__, _Aeronautical Telemetry_, April 2019-Present
 * Derived and implemented novel phase error detector for low-SNR 16-APSK
 * Implemented novel carrier phase acquisition algorithm in MATLAB
 * Analyzed various carrier acquisition methods and evaluated respective BERs
-* Advisorss: [Dr. Michael Rice](https://ece.byu.edu/faculty/michael_rice) and [Dr. Willie Harrison](https://ece.byu.edu/faculty/willie_harrison)
+* Advisors: [Dr. Michael Rice](https://ece.byu.edu/faculty/michael_rice) and [Dr. Willie Harrison](https://ece.byu.edu/faculty/willie_harrison)
 
 __Intern__, [_FractureLab_](http://www.fracturelab.com/), May 2019-Present
 * Designed and assembled custom PCB using KiCad for the [ZapperBox](http://www.fracturelab.com/products)
@@ -30,7 +30,7 @@ __Intern__, [_FractureLab_](http://www.fracturelab.com/), May 2019-Present
 __Research Assistant__, _RF Energy Harvesting Group_, September 2018–April 2019
 * Investigated RF circuitry for wireless power transfer for low-power sensor applications
 * Evaluated efficacy of various RF-to-DC Greenacher circuits
-* Advisorss: [Dr. Michael Rice](https://ece.byu.edu/faculty/michael_rice) and [Dr. Willie Harrison](https://ece.byu.edu/faculty/willie_harrison)
+* Advisors: [Dr. Michael Rice](https://ece.byu.edu/faculty/michael_rice) and [Dr. Willie Harrison](https://ece.byu.edu/faculty/willie_harrison)
 
 __Research Assistant__, _Battery Materials Research Group_, April 2018-September 2018
 * Spearheaded new subgroup in solid-state batteries
