@@ -14,7 +14,7 @@ Read about my [education](#education), [experience](#work-experience), [extra-cu
 
 # Education
 
-__Electrical Engineering__, BS, [_Brigham Young University_](http://www.byu.edu), April 2020
+__Electrical Engineering__, BS, [_Brigham Young University_](https://www.byu.edu/), April 2020
 * Minor in __Mathematics__
 * Graduated __Summa Cum Laude__
 * 4.0 GPA
@@ -28,7 +28,7 @@ __Intern__, [_Rincon Research_](http://www.rincon.com/), June 2020-July 2020
 * Successfully obtained all of the data they requested
 * Completed project individually and remotely during COVID-19 outbreak
 
-__Research Assistant__, _Aeronautical Telemetry_, April 2019-Present
+__Research Assistant__, [_Aeronautical Telemetry_](https://icelab.byu.edu/aeronautical-telemetry-systems), April 2019-Present
 * Derived and implemented novel phase error detector for low-SNR 16-APSK
 * Implemented novel carrier phase acquisition algorithm in [MATLAB](https://www.mathworks.com/products/matlab.html)
 * Analyzed various carrier acquisition methods and evaluated respective BERs
@@ -54,7 +54,7 @@ __Research Assistant__, _Battery Materials Research Group_, April 2018-September
 
 # Extra-Curricular
 
-__Vice President__, [_Amateur Radio Club_](http://radio.byu.edu/), January 2018-Present
+__Vice President__, [_Amateur Radio Club_](http://radio.byu.edu/), January 2018-April 2020
 * Organized weekly club meetings to discuss and implement principles of amateur radio
 * Assisted four members to obtain or upgrade their licenses
 * Coordinated weekly over-the-air trainings for club members to test equipment and to learn principles of radio communication
@@ -139,6 +139,7 @@ __Datalog__: I created a Datalog parser, then used that information to evaluate 
 |MATLAB         |KiCad      |Zilinx SDK     |RTL-SDR        |
 |HTML           |LaTeX      |KiCad          |Raspberry Pi   |
 |Git            |Audacity   |LTSpice        |Arduino        |
+|Qt             |Ubuntu     |GitLab         |ADwin-GOLD     |
 |Make           |Google Test|GNU Radio      |               |
 
 ## Coursework
