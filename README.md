@@ -1,28 +1,44 @@
 # About Me
 
-Anyone who knows me knows I love math, radios, and running. I am a graduate student in electrical engineering at Brigham Young University in Provo, Utah. I study carrier acquisition for aeronautical telemetry communication channels. I have many interests including signal processing, information theory, digital communications, and control systems.
+Anyone who knows me knows I love math, radios, and reading. I am a graduate student in electrical engineering at Brigham Young University in Provo, Utah. I study carrier acquisition for aeronautical telemetry communication channels. I have many interests including signal processing, information theory, digital communications, and control systems.
 
-Read about my [education](#education), [experience](#work-experience), [extra-curriculars](#extra-curricular), [publications](#publications), [awards](#awards-and-achievements), [projects](#projects), [skills](#skills), or [courses](#coursework) below. Feel free to connect with me on social media at [Twitter](https://twitter.com/bryandredd) or [LinkedIn](https://www.linkedin.com/in/bryan-redd/), or send me an email at [bryan.d.redd@gmail.com](bryan.d.redd@gmail.com).
+Read about my [education](#education), [experience](#work-experience), [extra-curriculars](#extra-curricular), [publications](#publications), [awards](#awards-and-achievements), [projects](#projects), [skills](#skills), or [courses](#coursework) below. Feel free to connect with through any of the following platforms:
+
+|Platform|Contact|
+|-|-|
+|Email|bryan.d.redd@gmail.com|
+|LinkedIn|[Bryan Redd](https://www.linkedin.com/in/bryan-redd/)|
+|Twitter|[bryandredd](https://twitter.com/bryandredd)|
+|GitHub|[@ae6nr](https://github.com/ae6nr)|
+|GitLab|[@ae6nr](https://gitlab.com/ae6nr)|
 
 # Education
 
-__Electrical Engineering__, BS, _Brigham Young University_, April 2020
+__Electrical Engineering__, BS, [_Brigham Young University_](http://www.byu.edu), April 2020
 * Minor in __Mathematics__
 * Graduated __Summa Cum Laude__
 * 4.0 GPA
 
 # Work Experience
 
+__Intern__, [_Rincon Research_](http://www.rincon.com/), June 2020-July 2020
+* Implemented a [WAAS](https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/waas/) signal demodulator in C++
+* Created several general-use modules related to spread-spectrum signal demodulation
+* Processed real data faster than real-time
+* Successfully obtained all of the data they requested
+* Completed project individually and remotely during COVID-19 outbreak
+
 __Research Assistant__, _Aeronautical Telemetry_, April 2019-Present
 * Derived and implemented novel phase error detector for low-SNR 16-APSK
-* Implemented novel carrier phase acquisition algorithm in MATLAB
+* Implemented novel carrier phase acquisition algorithm in [MATLAB](https://www.mathworks.com/products/matlab.html)
 * Analyzed various carrier acquisition methods and evaluated respective BERs
 * Advisors: [Dr. Michael Rice](https://ece.byu.edu/faculty/michael_rice) and [Dr. Willie Harrison](https://ece.byu.edu/faculty/willie_harrison)
 
 __Intern__, [_FractureLab_](http://www.fracturelab.com/), May 2019-Present
 * Designed and assembled custom PCB using KiCad for the [ZapperBox](http://www.fracturelab.com/products)
 * Wrote controller for compliance calculations for [ADwin-Gold](https://www.adwin.de/us/produkte/gold.html)
-* Created fracture simulations in GNU Octave
+* Developed associated GUI interface using [PyQt5](https://www.qt.io/).
+* Created fracture simulations in [GNU Octave](https://www.gnu.org/software/octave/)
 * Worked with FractureLab's owner [Richard Pettit](http://www.fracturelab.com/contact-info)
 
 __Research Assistant__, _RF Energy Harvesting Group_, September 2018–April 2019
@@ -64,9 +80,13 @@ __Student Mentoring__, _President's Leadership Council_, September 2019-Present
 
 # Projects
 
-## Capstone
+## WAAS Signal Demodulator
 
-My team developed a test bench for various texture algorithms outlined in Haralick's famous paper ["Textural Features for Image Classification"](http://haralick.org/journals/TexturalFeatures.pdf) for Sandia National Laboratories. We are specifically developed three algorithms in C++: a single-threaded, multi-threaded, and CUDA implementations. We used SWIG to create a Python user interface for ease of use.
+While at [Rincon](https://www.rincon.com), I wrote a WAAS signal demodulator in C++. I focused on general-purpose, reusable code that could easy be ported into other pojects. This project included several DSP principles, including spread-spectrum modulation, resampling filters, correlation filters, Viterbi decoding of convolutional codes, frame synchronization using distributed preambles, and interpreting received message packets. I was able to obtain all of the information that they asked for before my internship ended.
+
+## Capstone Project
+
+My team developed a test bench for various texture algorithms outlined in Haralick's famous paper ["Textural Features for Image Classification"](http://haralick.org/journals/TexturalFeatures.pdf) for [Sandia National Laboratories](https://www.sandia.gov). We are specifically developed three algorithms in C++: a single-threaded, multi-threaded, and CUDA implementations. We used SWIG to create a Python user interface for ease of use.
 
 ## Autonomous Vehicle
 
@@ -94,7 +114,7 @@ __Python Simulations__: I created several simulations in Python from scratch tha
 
 ## Digital Signal Processing
 
-__Direction-finder__: Using two microphones and MATLAB, I was able to correctly determine the direction from which an audible tone propagated through the lab based on the phase difference between the two signals.
+__Direction-finder__: Using two microphones and MATLAB, I was able to correctly determine the direction from which an audible tone propagated through a room based on the phase difference between the two signals.
 
 __Image processing__: Compared various methods of image filtering and evaluated their efficiency. Types of filters included edge-finding, blurring, and frequency-domain analysis.
 
@@ -119,6 +139,7 @@ __Datalog__: I created a Datalog parser, then used that information to evaluate 
 |MATLAB         |KiCad      |Zilinx SDK     |RTL-SDR        |
 |HTML           |LaTeX      |KiCad          |Raspberry Pi   |
 |Git            |Audacity   |LTSpice        |Arduino        |
+|Make           |Google Test|GNU Radio      |               |
 
 ## Coursework
 
@@ -149,11 +170,8 @@ __Datalog__: I created a Datalog parser, then used that information to evaluate 
 
 # More Information
 
-## Contact Me
-Connect with me on social media at [LinkedIn](https://www.linkedin.com/in/bryan-redd/) or [Twitter](https://twitter.com/bryandredd). Send me an email at [bryan.d.redd@gmail.com](bryan.d.redd@gmail.com).
-
-## Why is the link to this page ae6nr.github.io?
-AE6NR is my amateur radio callsign. It is a short sequence of letters that is unique on the internet and personal to me.
+## What does AE6NR mean?
+AE6NR is my amateur radio callsign. It is a short sequence of letters that is unique to me, so you can often find me on the internet by searching for those letters.
 
 ## Slovencina
 
