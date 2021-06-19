@@ -1,6 +1,8 @@
 # About Me
 
-Anyone who knows me knows I love math, radios, and reading. I am a graduate student in electrical engineering at Brigham Young University in Provo, Utah. I study carrier acquisition for aeronautical telemetry communication channels. I have many interests including signal processing, information theory, digital communications, and control systems.
+Thanks for visiting! The amount of technology that made your visit to this site possible truly boggles my mind. Electronic devices powered by massive energy distribution systems performed arcane mathematical computations on hardware that took decades of development to send an encrypted request through the complex network of computers known collectively as the "internet" to servers that neither of us own at blazing fast speeds so that this content could be delivered to you.
+
+Each step along that journey is full of beautiful technology based on countless mathematical, scientific, and engineering principles that no one person could feasibly understand. For this reason, I decided pursue a career electrical engineering so that I could learn about and further develop these techologies. Wireless systems like cellular networks, WiFi, or the radio in your car have always fascinated me. Now I have the wonderful opportunity to study these wireless systems at the graduate level.
 
 Read about my [education](#education), [experience](#work-experience), [extra-curriculars](#extra-curricular), [publications](#publications), [awards](#awards-and-achievements), [projects](#projects), [skills](#skills), or [courses](#coursework) below. Feel free to connect with through any of the following platforms:
 
@@ -8,7 +10,6 @@ Read about my [education](#education), [experience](#work-experience), [extra-cu
 |-|-|
 |Email|bryan.d.redd@gmail.com|
 |LinkedIn|[Bryan Redd](https://www.linkedin.com/in/bryan-redd/)|
-|Twitter|[bryandredd](https://twitter.com/bryandredd)|
 |GitHub|[@ae6nr](https://github.com/ae6nr)|
 |GitLab|[@ae6nr](https://gitlab.com/ae6nr)|
 
@@ -21,6 +22,19 @@ __Electrical Engineering__, BS, [_Brigham Young University_](https://www.byu.edu
 
 # Work Experience
 
+__Research Assistant__, [_Aeronautical Telemetry_](https://icelab.byu.edu/aeronautical-telemetry-systems), April 2019-Present
+* Studied Cramer-Rao Bounds (CRB) for various wireless communications systems
+* Extensive simulation in [MATLAB](https://www.mathworks.com/products/matlab.html) and [Python](https://www.python.org/)
+* Wrote [open-source library](https://github.com/ae6nr/digicomm) for various wireless communications simulations
+* Derived and implemented novel phase error detector for low-SNR 16-APSK
+* Implemented novel carrier phase acquisition algorithm in MATLAB
+* Analyzed various carrier acquisition methods and evaluated respective BERs
+* Advisors: [Dr. Michael Rice](https://ece.byu.edu/faculty/michael_rice) and [Dr. Willie Harrison](https://ece.byu.edu/faculty/willie_harrison)
+
+__Intern__, [_Riggs Consulting, LLC](https://www.riggsconsultingllc.com/), May 2021-Present
+* Wrote technical summaries of clients' projects for IRS R&D tax credits
+* Interviewed companies to determine elegibility for tax credits
+
 __Intern__, [_Rincon Research_](http://www.rincon.com/), June 2020-July 2020
 * Implemented a [WAAS](https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/waas/) signal demodulator in C++
 * Created several general-use modules related to spread-spectrum signal demodulation
@@ -28,13 +42,7 @@ __Intern__, [_Rincon Research_](http://www.rincon.com/), June 2020-July 2020
 * Successfully obtained all of the data they requested
 * Completed project individually and remotely during COVID-19 outbreak
 
-__Research Assistant__, [_Aeronautical Telemetry_](https://icelab.byu.edu/aeronautical-telemetry-systems), April 2019-Present
-* Derived and implemented novel phase error detector for low-SNR 16-APSK
-* Implemented novel carrier phase acquisition algorithm in [MATLAB](https://www.mathworks.com/products/matlab.html)
-* Analyzed various carrier acquisition methods and evaluated respective BERs
-* Advisors: [Dr. Michael Rice](https://ece.byu.edu/faculty/michael_rice) and [Dr. Willie Harrison](https://ece.byu.edu/faculty/willie_harrison)
-
-__Intern__, [_FractureLab_](http://www.fracturelab.com/), May 2019-Present
+__Intern__, [_FractureLab_](http://www.fracturelab.com/), May 2019-August 2020
 * Designed and assembled custom PCB using KiCad for the [ZapperBox](http://www.fracturelab.com/products)
 * Wrote controller for compliance calculations for [ADwin-Gold](https://www.adwin.de/us/produkte/gold.html)
 * Developed associated GUI interface using [PyQt5](https://www.qt.io/).
@@ -133,22 +141,27 @@ __Datalog__: I created a Datalog parser, then used that information to evaluate 
 
 |Programming    |Software   |               |Hardware       |
 |---            |---        |---            |---            |
-|C              |TensorFlow |Mbed           |NVIDIA Jetson  |
+|C              |TensorFlow |VSCode         |USRP           |
 |C++            |OpenCV     |GNU Octave     |FPGA           |
 |Python         |Linux      |Visual Studio  |ZYBO           |
 |MATLAB         |KiCad      |Zilinx SDK     |RTL-SDR        |
 |HTML           |LaTeX      |KiCad          |Raspberry Pi   |
 |Git            |Audacity   |LTSpice        |Arduino        |
 |Qt             |Ubuntu     |GitLab         |ADwin-GOLD     |
-|Make           |Google Test|GNU Radio      |               |
+|Make           |Google Test|GNU Radio      |NVIDIA Jetson  |
+|Flutter/Dart   |Mbed       |Android Studio |NFC            |
 
 ## Coursework
 
 ### Engineering
+* Digital Communication Theory
+* Advanced Wireless Communications
+* Discrete-Time Signal Processing
+* Mathematics of Signals and Systems
+* Stochastic Processes
+* Detection and Estimation Theory
 * Information Theory
 * Coding Theory
-* Digital Communication Theory
-* Discrete-Time Signal Processing
 * Linear Signals and Systems
 * Self-Driving Cars
 * Control Systems
@@ -160,6 +173,7 @@ __Datalog__: I created a Datalog parser, then used that information to evaluate 
 * Microelectronics
 
 ### Computer Science
+* Wireless Networking
 * Data Structures
 * Discrete Structures
 
